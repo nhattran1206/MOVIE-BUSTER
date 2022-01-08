@@ -19,8 +19,9 @@
   align-items: center;
 }
 .logo{
-  width: 50px;
+  width: 30px;
   cursor: pointer;
+  height: 30px
 }
 .menu-icon{
   width: 30px;
