@@ -6,11 +6,11 @@
 .container{
   width: 100%;
   height: 100vh;
-  background-image: url(images/webimg.jpg);
+  background-image: rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7),url(images/webimg.jpg);
   background-position: center;
   background-size: cover;
   padding-left: 8%;
-  padding-right: 8%;
+  padding-right: 8%;sssss
   box-sizing: border-box;
 }
 .navbar{
@@ -70,7 +70,7 @@ button{
   outline: none;
   margin-top: 30px;
 }
-.card{
+.card1, .card2, .card3, .card4{
   width: 200px;
   height: 230px;
   display: inline-block;
@@ -83,26 +83,26 @@ button{
   background-size: cover;
   transition: transform 0.5s;
 }
-card1{
+.card1{
   background-image: url(images/pic1.jpg);
 }
-card2{
+.card2{
   background-image: url(images/pic2.jpg);
 }
-card3{
+.card3{
   background-image: url(images/pic3.jpg);
 }
-card4{
+.card4{
   background-image: url(images/pic4.jpg);
 }
-.card:hover{
+.card1, .card2, .card3, .card4:hover{
   transform: translateY(-10px);
 }
 h5{
   color: #fff;
   text-shadow: 0 0 5px #999;
 }
-.card p{
+.card1, .card2, .card3, .card4 p{
   text-shadow: 0 0 5px #999;
   font-size: 8px;
 
