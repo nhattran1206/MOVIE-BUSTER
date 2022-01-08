@@ -58,7 +58,7 @@ h1{
 }
 p{
   color: #fff;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 15px;
 }
 button{
@@ -103,6 +103,7 @@ button{
 h5{
   color: #fff;
   text-shadow: 0 0 5px #999;
+  font-size: 20px;
 }
 .card1, .card2, .card3, .card4 p{
   text-shadow: 0 0 5px #999;
